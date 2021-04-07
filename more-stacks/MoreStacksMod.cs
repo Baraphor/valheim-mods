@@ -33,6 +33,7 @@ namespace MoreStacks
             RegisterPrefab("Assets/MoreStacks/IronBarStack.prefab","IronBarStack");
             RegisterPrefab("Assets/MoreStacks/SilverBarStack.prefab","SilverBarStack");
             RegisterPrefab("Assets/MoreStacks/TinBarStack.prefab","TinBarStack");
+            RegisterPrefab("Assets/MoreStacks/BronzeBarStack.prefab", "BronzeBarStack");
             RegisterPrefab("Assets/MoreStacks/TreasureChest.prefab","TreasureChest");
             RegisterPrefab("Assets/MoreStacks/FineWoodStack.prefab","FineWoodStack");
             RegisterPrefab("Assets/MoreStacks/CoreWoodStack.prefab","CoreWoodStack");
@@ -45,6 +46,7 @@ namespace MoreStacks
             PieceManager.Instance.RegisterPiece("Hammer", "IronBarStack");
             PieceManager.Instance.RegisterPiece("Hammer", "SilverBarStack");
             PieceManager.Instance.RegisterPiece("Hammer", "TinBarStack");
+            PieceManager.Instance.RegisterPiece("Hammer", "BronzeBarStack");
             PieceManager.Instance.RegisterPiece("Hammer", "TreasureChest");
             PieceManager.Instance.RegisterPiece("Hammer", "FineWoodStack");
             PieceManager.Instance.RegisterPiece("Hammer", "CoreWoodStack");
